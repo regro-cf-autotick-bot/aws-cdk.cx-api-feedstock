@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.272.0"
+  version: 2.274.0
 
 package:
   name: aws-cdk.cx-api
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/a/aws-cdk.cx-api/aws_cdk_cx_api-${{ version }}.tar.gz
-  sha256: eaed4a28da1e36e2eca9eea5eb4a5d173e3e62f01c78b05668969e8433adea0d
+  sha256: 676b55173d17463dae02629f6ecb465923e6cdd5284e759af4f6e2a63dce699a
 
 build:
   number: 0
@@ -25,7 +25,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - aws-cdk.cloud-assembly-schema >=54.24.0
-    - python-jsii >=1.140.0,<2.0.0
+    - python-jsii >=1.141.0,<2.0.0
     - publication >=0.0.3
 tests:
   - python:
